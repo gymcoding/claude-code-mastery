@@ -125,3 +125,27 @@ git commit -m "문서: 설명"
 - 다양한 디바이스에서 반응형 테스트
 - Lighthouse를 통한 성능 측정
 - Wave 도구를 통한 접근성 검사
+
+# 추가 지침
+- git 워크플로우 @docs/git-instructions.md
+- 변수명, 함수명은 카멜케이스 규칙을 사용하세요.
+
+
+
+2칸 들여쓰기, React 컴포넌트는 PascalCase, API 호출은 async/await, 에러는 try-catch, 테스트는 Jest 사용
+
+# 코딩 스타일
+- 들여쓰기: 2칸 스페이스
+- 따옴표: 작은따옴표 사용
+
+# React 규칙
+- 컴포넌트명: PascalCase (예: UserProfile)
+- Props명: camelCase (예: userName)
+
+# 비동기 처리
+- API 호출: async/await 패턴 사용
+- 에러 처리: try-catch 블록 필수
+
+# 테스팅
+- 테스트 도구: Jest 사용
+- 테스트 파일: .test.js 확장자
